@@ -1,0 +1,26 @@
+name: Build and compile
+
+on:
+  push:
+    branches: [ "**" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Generate CMake Build Files
+      run: cmake -G Ninja -S . -B build
+    - name: Build and compile
+      run: |
+          cmake --build build -- -k 0 -j$(nproc) | tee build.log
+          exit_code=${PIPESTATUS[0]}
+          if [ $exit_code -ne 0 ]; then
+            echo "Build failed with exit code $exit_code"
+            exit $exit_code
+          fi
+    - name: Output failed targets, if any
+      if: ${{ failure() }}
+      run: cat build.log | grep FAILED
