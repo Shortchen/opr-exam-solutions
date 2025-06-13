@@ -4,5 +4,5 @@ project(opr_klausuren)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(ss13-3_2 ss13/aufgabe3_2/main.cpp)
-
+add_executable(ss13-3_3 ss13/aufgabe3_3/main.cpp)
 
