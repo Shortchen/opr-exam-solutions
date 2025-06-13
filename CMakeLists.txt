@@ -21,6 +21,8 @@ add_executable(ss18-2_1 ss19/aufgabe2_1/main.cpp)
 add_executable(ss18-2_2 ss19/aufgabe2_2/main.cpp)
 add_executable(ss18-2_3 ss19/aufgabe2_3/main.cpp)
 add_executable(ss18-2_4 ss19/aufgabe2_4/main.cpp)
+add_executable(ss18-3_1 ss19/aufgabe3_1/main.cpp)
+
 
 add_executable(ss22-2_1 ss22/aufgabe2_1/main.cpp)
 add_executable(ss22-2_2 ss22/aufgabe2_2/main.cpp)
