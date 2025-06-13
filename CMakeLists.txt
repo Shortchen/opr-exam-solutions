@@ -17,6 +17,7 @@ add_executable(ss18-3_1 ss18/aufgabe3_1/main.cpp
         ss18/aufgabe3_1/Komplex.h)
 add_executable(ss18-3_2 ss18/aufgabe3_2/main.cpp)
 
+add_executable(ss22-2_1 ss22/aufgabe2_1/main.cpp)
 add_executable(ss22-2_2 ss22/aufgabe2_2/main.cpp)
 add_executable(ss22-3_1 ss22/aufgabe3_1/main.cpp)
 add_executable(ss22-3_2 ss22/aufgabe3_2/main.cpp)
