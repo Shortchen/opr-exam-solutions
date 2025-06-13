@@ -7,3 +7,8 @@ add_executable(ss13-3_2 ss13/aufgabe3_2/main.cpp)
 add_executable(ss13-3_3 ss13/aufgabe3_3/main.cpp)
 add_executable(ss13-3_4 ss13/aufgabe3_4/main.cpp)
 
+add_executable(ss16-2_2 ss16/aufgabe2_2/main.cpp ss18/aufgabe3_1/Komplex.h
+        ss16/aufgabe2_2/Float.cpp
+        ss16/aufgabe2_2/Float.h
+        ss16/aufgabe2_2/Logger.h
+        ss16/aufgabe2_2/LoggerImpl.h)
