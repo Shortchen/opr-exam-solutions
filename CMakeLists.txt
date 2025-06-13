@@ -17,12 +17,12 @@ add_executable(ss18-3_1 ss18/aufgabe3_1/main.cpp
         ss18/aufgabe3_1/Komplex.h)
 add_executable(ss18-3_2 ss18/aufgabe3_2/main.cpp)
 
-add_executable(ss18-2_1 ss19/aufgabe2_1/main.cpp)
-add_executable(ss18-2_2 ss19/aufgabe2_2/main.cpp)
-add_executable(ss18-2_3 ss19/aufgabe2_3/main.cpp)
-add_executable(ss18-2_4 ss19/aufgabe2_4/main.cpp)
-add_executable(ss18-3_1 ss19/aufgabe3_1/main.cpp)
-add_executable(ss18-3_2 ss19/aufgabe3_2/main.cpp)
+add_executable(ss19-2_1 ss19/aufgabe2_1/main.cpp)
+add_executable(ss19-2_2 ss19/aufgabe2_2/main.cpp)
+add_executable(ss19-2_3 ss19/aufgabe2_3/main.cpp)
+add_executable(ss19-2_4 ss19/aufgabe2_4/main.cpp)
+add_executable(ss19-3_1 ss19/aufgabe3_1/main.cpp)
+add_executable(ss19-3_2 ss19/aufgabe3_2/main.cpp)
 
 
 add_executable(ss22-2_1 ss22/aufgabe2_1/main.cpp)
