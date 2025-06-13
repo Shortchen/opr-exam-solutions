@@ -12,3 +12,6 @@ add_executable(ss16-2_2 ss16/aufgabe2_2/main.cpp ss18/aufgabe3_1/Komplex.h
         ss16/aufgabe2_2/Float.h
         ss16/aufgabe2_2/Logger.h
         ss16/aufgabe2_2/LoggerImpl.h)
+
+add_executable(ss18-3_1 ss18/aufgabe3_1/main.cpp
+        ss18/aufgabe3_1/Komplex.h)
