@@ -13,6 +13,10 @@ add_executable(ss16-2_2 ss16/aufgabe2_2/main.cpp ss18/aufgabe3_1/Komplex.h
         ss16/aufgabe2_2/Logger.h
         ss16/aufgabe2_2/LoggerImpl.h)
 
+add_executable(ss17-3 ss17/aufgabe3/A.h
+        ss17/aufgabe3/B.h
+        ss17/aufgabe3/main.cpp)
+
 add_executable(ss18-3_1 ss18/aufgabe3_1/main.cpp
         ss18/aufgabe3_1/Komplex.h)
 add_executable(ss18-3_2 ss18/aufgabe3_2/main.cpp)
