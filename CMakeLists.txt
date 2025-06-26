@@ -7,6 +7,8 @@ add_executable(ss13-3_2 ss13/aufgabe3_2/main.cpp)
 add_executable(ss13-3_3 ss13/aufgabe3_3/main.cpp)
 add_executable(ss13-3_4 ss13/aufgabe3_4/main.cpp)
 
+#add_executable(ss14-2 ss14/aufgabe2/main.cpp)
+
 add_executable(ss16-2_2 ss16/aufgabe2_2/main.cpp ss18/aufgabe3_1/Komplex.h
         ss16/aufgabe2_2/Float.cpp
         ss16/aufgabe2_2/Float.h
@@ -43,6 +45,5 @@ add_executable(ss22-2_3 ss22/aufgabe2_3/main.cpp)
 add_executable(ss22-2_4 ss22/aufgabe2_4/main.cpp)
 add_executable(ss22-3_1 ss22/aufgabe3_1/main.cpp)
 add_executable(ss22-3_2 ss22/aufgabe3_2/main.cpp)
-add_executable(ss14-2 ss14/aufgabe2/main.cpp)
 
 add_executable(sandbox sandbox/main.cpp)
