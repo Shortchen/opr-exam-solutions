@@ -34,4 +34,4 @@ add_executable(ss22-3_1 ss22/aufgabe3_1/main.cpp)
 add_executable(ss22-3_2 ss22/aufgabe3_2/main.cpp)
 add_executable(ss14-2 ss14/aufgabe2/main.cpp)
 
-#add_executable(sandbox sandbox/main.cpp)
+add_executable(sandbox sandbox/main.cpp)
