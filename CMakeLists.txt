@@ -17,6 +17,14 @@ add_executable(ss17-3 ss17/aufgabe3/A.h
         ss17/aufgabe3/B.h
         ss17/aufgabe3/main.cpp)
 
+add_executable(ss17-4_2 ss17/aufgabe4_2/Koerper.h
+        ss17/aufgabe4_2/Koerper2D.h
+        ss17/aufgabe4_2/Koerper3D.h
+        ss17/aufgabe4_2/Rechteck.h
+        ss17/aufgabe4_2/Wuerfel.h
+        ss17/aufgabe4_2/main.cpp
+)
+add_executable(ss18-2_3 ss18/aufgabe2_3/main.cpp)
 add_executable(ss18-3_1 ss18/aufgabe3_1/main.cpp
         ss18/aufgabe3_1/Komplex.h)
 add_executable(ss18-3_2 ss18/aufgabe3_2/main.cpp)
@@ -24,3 +32,6 @@ add_executable(ss18-3_2 ss18/aufgabe3_2/main.cpp)
 add_executable(ss22-2_2 ss22/aufgabe2_2/main.cpp)
 add_executable(ss22-3_1 ss22/aufgabe3_1/main.cpp)
 add_executable(ss22-3_2 ss22/aufgabe3_2/main.cpp)
+add_executable(ss14-2 ss14/aufgabe2/main.cpp)
+
+#add_executable(sandbox sandbox/main.cpp)
