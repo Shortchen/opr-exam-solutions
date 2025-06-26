@@ -12,7 +12,7 @@ struct Produkt {
 struct Fabrik {
     virtual ~Fabrik() {}
 
-    virtual Produkt *erzeuge(string const &) = 0;
+    virtual Produkt* erzeuge(string const &sex) = 0;
 };
 
 class KonkretesProdukt : public Produkt {
@@ -22,7 +22,7 @@ private:
 public:
     KonkretesProdukt(const string &i) : _info(i) {}
 
-    string info() const override {
+    virtual string info() const override {
         // Override ist clean/good practice, aber optional
         return _info;
     }
@@ -36,7 +36,7 @@ public:
     ~KonkreteFabrik() {
         for (auto produkt: produkte) {
             cout << "Lösche Produkte: " << produkt->info() << endl;
-            free(produkt);
+            delete produkt;
         }
     }
 
