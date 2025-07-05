@@ -2,21 +2,30 @@
 #include "A.h"
 #pragma once
 
-class B : public A <float>
-{
-    private:
-    B(const B& b);
+class B : public A<float> {
+private:
+    B(const B &b);
+
     float f;
-    //.............................................. ;
-    protected:
+
+    A<float> f (float t) const;
+protected:
     B(float f);
-    A<float>* g(const B* const b);
-    public:
-    static B* erstellen(float f);
-    virtual ~B() ;
-    B& operator=(const B& b);
+
+    A<float> *g(const B *const b);
+
+public:
+    static B *erstellen(float f);
+
+    virtual ~B();
+
+    B &operator=(const B &b);
+
     float f(float t) const override;
-    B& operator*(const B& b) ;
-    friend std::istream& operator>>(std::istream& is, const B& b) ;
+
+    B &operator*(const B &b);
+
+    friend std::istream &operator>>(std::istream &is, const B &b);
 };
-std::ostream& operator<<(std::ostream& os, const B& b) ;
+
+std::ostream &operator<<(std::ostream &os, const B &b);

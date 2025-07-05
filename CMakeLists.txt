@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.29)
 project(opr_klausuren)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -50,4 +50,21 @@ add_executable(ss22-2_4 ss22/aufgabe2_4/main.cpp)
 add_executable(ss22-3_1 ss22/aufgabe3_1/main.cpp)
 add_executable(ss22-3_2 ss22/aufgabe3_2/main.cpp)
 
-add_executable(sandbox sandbox/main.cpp)
+add_executable(ss17-4_1 ss17/aufgabe4_1/matrix.cpp ss17/aufgabe4_1/Ausnahme.h
+        ss17/aufgabe4_1/Matrix.h)
+add_executable(ss17-2_1 ss17/aufgabe2_1/main.cpp)
+add_executable(ss17-2_3 ss17/aufgabe2_3/main.cpp)
+add_executable(ss17-2_2 ss17/aufgabe2_2/main.cpp)
+
+add_executable(ss16-2_1 ss16/aufgabe2_1/main.cpp)
+add_executable(ss16-1_4 ss16/aufgabe1_4/main.cpp)
+add_executable(ss16-1_3 ss16/aufgabe1_3/main.cpp)
+add_executable(ss16-1_2 ss16/aufgabe1_2/main.cpp)
+add_executable(ss16-1_1 ss16/aufgabe1_1/main.cpp)
+
+add_executable(ws15-3_2 ws15/aufgabe3_2/main.cpp)
+add_executable(ws15-3_1 ws15/aufgabe3_1/main.cpp)
+add_executable(ws15-2_4 ws15/aufgabe2_4/main.cpp)
+add_executable(ws15-2_3 ws15/aufgabe2_3/main.cpp)
+add_executable(ws15-2_2 ws15/aufgabe2_2/main.cpp)
+add_executable(ws15-2_1 ws15/aufgabe2_1/main.cpp)
